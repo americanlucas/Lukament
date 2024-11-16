@@ -42,7 +42,7 @@ export const Main = () => {
             <h4>Find more details and learn more about digital wallet <Link className="text-[#F2C94C] hover:underline" to="/about ">here</Link> </h4>
           </div>
         </div>
-        <div className="flex flex-col mt-16 w-120 h-80 bg-zinc-600 border border-zinc-200 rounded-3xl py-8 px-14 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20">
+        <div className="flex flex-col mt-16 rotate-12 w-120 h-80 bg-zinc-600 border border-zinc-200 rounded-3xl py-8 px-14 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20">
           <div className="flex pl-60 pb-4">
             <Visa />
           </div>
