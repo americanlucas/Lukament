@@ -1,4 +1,5 @@
 import { Home } from "@/pages/Home"
+import { Features } from "@/pages/Features";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 const App: React.FC = () => {
@@ -7,6 +8,7 @@ const App: React.FC = () => {
       <Router>
         <Routes>
           <Route path="/" element={<Home />}/>
+          <Route path="features" element={<Features />}/>
         </Routes>
       </Router>
     </>

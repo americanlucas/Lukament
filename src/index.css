@@ -61,7 +61,9 @@
     @apply border-border;
   }
   body {
-    @apply bg-gradient-to-br from-[#DC267E] via-[#845280] to-[#F67893];
+    @apply 
+      bg-gradient-to-br from-purple-900 via-purple-800 to-pink-600; 
+      overflow-y: hidden;
   }
 
 }

@@ -54,15 +54,15 @@ export const Main = () => {
           </div>
           <div className="flex space-x-8 mt-2">
             <div className="flex flex-col">
-              <p className="text-zinc-600">Owner Name</p>
+              <p className="text-white">Owner Name</p>
               <h1 className="text-white font-thin text-2xl font-Comfortaa">Lucas Americano</h1>
             </div>
             <div className="flex flex-col">
-              <p className="text-zinc-600">Expiry</p>
+              <p className="text-white">Expiry</p>
               <h1 className="text-white font-thin text-2xl font-Comfortaa">05/25</h1>
             </div>
             <div className="flex flex-col">
-              <p className="text-zinc-600">CVV</p>
+              <p className="text-white">CVV</p>
               <h1 className="text-white font-thin text-2xl font-comfortaa">444</h1>
             </div>
           </div>
