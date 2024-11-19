@@ -1,3 +1,4 @@
+import { Progress } from "../ui/progress"
 import { Button } from "../ui/button"
 
 const Glassmorphism = ({ children }: { children: React.ReactNode }) => {
@@ -25,22 +26,22 @@ export const Main = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flex flex-row items-center align-center justify-center space-x-8">
+                <div className="flex flex-row items-center align-center justify-center space-x-8 mb-10">
                     <Glassmorphism>
                         <h1 className="text-xl text-white font-bold">Saving Goals</h1>
                         <div className="flex flex-col my-2 w-80 bg-zinc-400 rounded-xl py-4 px-6 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20 h-fit">
                             <div className="flex flex-row justify-between text-white">
                                 <h2>Vacation Fund</h2>
-                                <p>79%</p>
+                                <p>{38 + '%'}</p>
                             </div>
-                            <p className="text-white">*progress bar*</p>
+                            <Progress className="mt-4 bg-zinc-400 text-slate-200" value={38}/>
                         </div>
                         <div className="flex flex-col my-2 w-120 bg-zinc-400 rounded-xl py-4 px-6 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20 h-fit">
                             <div className="flex flex-row justify-between text-white">
                                 <h2>Emergency Fund</h2>
-                                <p>79%</p>
+                                <p>{61 + '%' }</p>
                             </div>
-                            <p className="text-white">*progress bar*</p>
+                            <Progress className="mt-4 bg-zinc-400 text-slate-200" value={61}/>
                         </div>
                     </Glassmorphism>
                     <Glassmorphism>
