@@ -30,9 +30,11 @@ export const Main = () => {
                 With integration and well-build digital wallet, control your own cards and list all your payments to pay. Set your own code key to makes all payments done with only one approve action.
             </p>
             <div className="text-white space-x-8">
-                <Button className="px-8 py-6 rounded-3xl bg-pink-600 hover:bg-pink-500">
+              <Link to="/plans">
+                <Button className="px-8 py-6 rounded-3xl bg-pink-600 hover:bg-pink-500" >
                     Open Account Now
                 </Button>
+              </Link>
                 <Link className=" hover:text-fuchsia-300 duration-300" to="/app">
                     Download App Now
                 </Link>
@@ -42,7 +44,7 @@ export const Main = () => {
             <h4>Find more details and learn more about digital wallet <Link className="text-[#F2C94C] hover:underline" to="/about ">here</Link> </h4>
           </div>
         </div>
-        <div className="flex flex-col mt-16 rotate-12 w-120 h-80 bg-zinc-600 border border-zinc-200 rounded-3xl py-8 px-14 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20">
+        <div className="flex flex-col mt-16 rotate-12 w-120 h-80 bg-zinc-600 border-2 border-zinc-200 rounded-3xl py-8 px-14 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20">
           <div className="flex pl-60 pb-4">
             <Visa />
           </div>

@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 // }
 
 const titulos = ["Lukament", "Get App Now"];
-const subtitulos = ["Features", "Saving", "Payments", "Products", "About"];
+const subtitulos = ["Features", "Savings", "Payments", "Plans", "About"];
 
 export const Header: React.FC = () => {
   return (
