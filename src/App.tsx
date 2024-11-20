@@ -3,6 +3,7 @@ import { Features } from "@/pages/Features";
 import { Savings } from "@/pages/Savings";
 import { Plans } from "@/pages/Plans";
 import { About } from "@/pages/About";
+import { Payments } from "@/pages/Payments";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 const App: React.FC = () => {
@@ -15,6 +16,7 @@ const App: React.FC = () => {
           <Route path="savings" element={<Savings />}/>
           <Route path="plans" element={<Plans />}/>
           <Route path="about" element={<About />}/>
+          <Route path="payments" element={<Payments />}/>
         </Routes>
       </Router>
     </>
