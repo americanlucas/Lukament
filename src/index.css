@@ -58,11 +58,14 @@
 }
 @layer base {
   * {
-    @apply border-border;
+    @apply 
+      border-border;
+      margin: 0px;
+      padding: 0px;
   }
   body {
     @apply 
-      bg-gradient-to-br from-purple-900 via-purple-800 to-pink-600;  
+      bg-gradient-to-br from-purple-900 via-purple-800 to-pink-600 min-h-screen;  
       min-height: 100vh; 
       min-width: 100vw; 
       overflow-x: hidden;
