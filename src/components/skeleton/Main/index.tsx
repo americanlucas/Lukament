@@ -1,17 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-
-const Visa = () => {
-  return <img src="../../../src/assets/visa.png" alt="" />;
-};
-
-const Chip = () => {
-  return <img src="../../../src/assets/chip-card.png" alt="" />;
-};
-
-const Swap = () => {
-  return <img src="../../../src/assets/Swap.svg" alt="" />;
-};
+import Visa from "../../../assets/visa.png";
+import Chip from "../../../assets/chip-card.png";
+import Swap from "../../../assets/Swap.svg";
 
 export const Main = () => {
   return (
