@@ -63,7 +63,7 @@
       margin: 0px;
       padding: 0px;
   }
-  body {
+  html {
     @apply 
       bg-gradient-to-br from-purple-900 via-purple-800 to-pink-600 min-h-screen;  
       min-height: 100vh; 
