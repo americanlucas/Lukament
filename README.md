@@ -1,50 +1,30 @@
-# React + TypeScript + Vite
+# Lukament: Carteira Digital Moderna
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Lukament** é uma aplicação de carteira digital que facilita pagamentos rápidos e seguros. Com uma interface intuitiva e recursos de gestão de cartões, o projeto foi desenvolvido para oferecer integração simplificada e eficiência no controle financeiro.
 
-Currently, two official plugins are available:
+## 📋 **Recursos Principais**
+- **Pagamentos Rápidos e Fáceis**: Efetue transações com apenas um clique.
+- **Gestão de Cartões**: Armazene e visualize todos os seus cartões em um único lugar.
+- **Controle Financeiro**: Organize pagamentos e monitore gastos de forma prática.
+- **Segurança Avançada**: Configure um código de autorização para maior proteção.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 **Tecnologias Utilizadas**
+- **Frontend**: React com TypeScript e Vite, aproveitando HMR (Hot Module Replacement) para maior produtividade.
+- **Estilização**: CSS moderno e responsivo com TailwindCSS.
 
-## Expanding the ESLint configuration
+## 🛠️ **Como Instalar e Rodar o Projeto**
+1. **Clone o repositório**:
+   ```bash
+   git clone https://github.com/americanlucas/Lukament.git
+   cd Lukament
+   npm i
+   npm run dev
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Estrutura do Repositório
 
-- Configure the top-level `parserOptions` property like this:
+Abaixo está a estrutura do repositório, dividida em diferentes diretórios:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+```bash
+├── src/
+├── public/
+└── README.md
