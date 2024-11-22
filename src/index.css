@@ -65,9 +65,9 @@
   }
   html {
     @apply 
-      bg-gradient-to-br from-purple-900 via-purple-800 to-pink-600 min-h-screen;  
-      min-height: 100vh; 
-      min-width: 100vw; 
+      bg-gradient-to-br from-purple-900 via-purple-800 to-pink-600 w-dvw;  
+      min-height: 100dvh; 
+      min-width: 100dvw; 
       overflow-x: hidden;
   }
 }

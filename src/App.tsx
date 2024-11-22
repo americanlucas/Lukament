@@ -4,7 +4,7 @@ import { Savings } from "@/pages/Savings";
 import { Plans } from "@/pages/Plans";
 import { About } from "@/pages/About";
 import { Payments } from "@/pages/Payments";
-import { GetApp } from "@/pages/App";
+import { GetApp } from "@/pages/GetApp";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 const App: React.FC = () => {

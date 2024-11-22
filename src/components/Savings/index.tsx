@@ -21,7 +21,7 @@ export const Main = () => {
                         <div className="flex flex-1 text-6xl font-bold text-white max-w-xl text-center m-6">
                             <h1 >Save Smarter, Not Harder</h1>
                         </div>
-                        <div className="text-zinc-300 text-center text-2xl tracking-wide space-y-8">
+                        <div className="text-zinc-300 text-center mt-6 mx-8 text-xl tracking-wide space-y-8 md:text-2xl">
                             <h3>Automated saving tools and intelligent recommendations to help you achieve your financial goals.</h3>
                         </div>
                     </div>

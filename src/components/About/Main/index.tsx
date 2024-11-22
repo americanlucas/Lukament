@@ -12,7 +12,7 @@ export const Main = () => {
                         <h1 >Our Mission</h1>
                     </div>
                     <div className="text-center text-zinc-300 font-semibold text-2xl tracking-wide space-y-8">
-                        <h3>We're building the future of digital banking to empower people worldwide with modern financial tools.</h3>
+                        <h3 className="mx-10 my-[10px] text-xl md:mx-0 md:my-0 md:text-2xl" >We're building the future of digital banking to empower people worldwide with modern financial tools.</h3>
                     </div>
                 </div>
                 <div className="flex flex-col items-center align-center justify-center space-y-8 space-x-0 my-12 md:flex-row md:space-x-8 md:space-y-0">

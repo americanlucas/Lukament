@@ -2,17 +2,16 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
 
-const Visa = () => {
-  return <img src="../../../src/assets/visa.png" alt="" />;
-};
+const Visa = () => (
+  <img src="/src/assets/visa.png" alt="Visa Icon" loading="lazy" />
+)
+const Chip = () => (
+  <img src="/src/assets/chip-card.png" alt="Chip Icon" loading="lazy" />
+)
 
-const Chip = () => {
-  return <img src="../../../src/assets/chip-card.png" alt="" />;
-};
-
-const Swap = () => {
-  return <img src="../../../src/assets/Swap.svg" alt="" />;
-};
+const Swap = () => (
+  <img src="/src/assets/Swap.svg" alt="Swap Icon" loading="lazy" />
+);
 
 export const Main = () => {
   return (
@@ -27,7 +26,7 @@ export const Main = () => {
             <h1 className="text-center text-6xl font-bold max-w-xl leading-[1.25] text-white tracking-wide md:text-start">
               Easy and Fast Payments.
             </h1>
-            <p className="text-center w-9/12 my-8 text-zinc-400 md:text-start mx-0 max-w-lg">
+            <p className="text-md text-center w-9/12 my-8 text-zinc-400 md:text-start mx-0 max-w-lg">
                 With integration and well-build digital wallet, control your own cards and list all your payments to pay. Set your own code key to makes all payments done with only one approve action.
             </p>
             <div className="text-white space-x-8 mx-6 flex md:mx-0">

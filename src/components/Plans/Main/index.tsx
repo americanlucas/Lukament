@@ -13,7 +13,7 @@ export const Main = () => {
                     <h1>Banking Made Simple</h1>
                 </div>
                 <div className="text-center text-zinc-300 font-semibold text-2xl tracking-wide space-y-8">
-                    <h3 className="mx-4 md:mx-0">Choose the perfect plan for your financial needs.</h3>
+                    <h3 className="mx-10 my-[10px] text-xl md:mx-0 md:my-0 md:text-2xl">Choose the perfect plan for your financial needs.</h3>
                 </div>
             </div>
             <div className="flex flex-col justify-center m-12 space-x-0 md:flex-row md:space-x-12">

@@ -29,7 +29,7 @@ export const Popout = () => {
                 <div className="flex flex-1 text-6xl font-bold text-white max-w-xl text-center m-6">
                     <h1 >Smart Features for Modern Banking</h1>
                 </div>
-                <div className="flex text-center text-zinc-300  text-2xl tracking-wide space-y-8">
+                <div className="flex text-center text-zinc-300 mx-8 mt-6 text-xl tracking-wide space-y-8 md:text-2xl">
                     <h3>Experience next-generation banking with our innovative features designed for your financial success.</h3>
                 </div>
             </div>
