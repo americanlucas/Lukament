@@ -61,7 +61,7 @@ export const Main = () => {
                                   <h2 className="text-lg font-semibold">{product.name}</h2>
                                   <p className="text-zinc-300">{product.category}</p>
                               </div>
-                              <p className="text-red-500 absolute top-[40px] left-[180px] md:absolute md:left-[200px] md:top-8 md:text-lg">-R${product.price.toFixed(2)}</p>
+                              <p className="text-red-500 absolute top-[40px] left-[150px] md:absolute md:left-[200px] md:top-8 md:text-lg">-R${product.price.toFixed(2)}</p>
                           </div>
                       )
                   })}
