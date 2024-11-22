@@ -1,17 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-
-
-const Visa = () => (
-  <img src="/src/assets/visa.png" alt="Visa Icon" loading="lazy" />
-)
-const Chip = () => (
-  <img src="/src/assets/chip-card.png" alt="Chip Icon" loading="lazy" />
-)
-
-const Swap = () => (
-  <img src="/src/assets/Swap.svg" alt="Swap Icon" loading="lazy" />
-);
+import Visa from "../../../assets/visa.png"
+import Chip from "../../../assets/chip-card.png"
+import Swap from "../../../assets/Swap.svg"
 
 export const Main = () => {
   return (
@@ -20,7 +11,7 @@ export const Main = () => {
         <div>
           <div className="max-[480px]:flex max-[480px]:justify-center flex-col md:flex-col justify-center items-center" >
             <p className="flex text-[#F2C94C] font-semibold">
-              <Swap />
+              <img src={Swap} alt="" />
               Switch to the newest and modern digital wallet
             </p>
             <h1 className="text-center text-6xl font-bold max-w-xl leading-[1.25] text-white tracking-wide md:text-start">
@@ -47,10 +38,10 @@ export const Main = () => {
         <div className=" flex m-6">
           <div className="flex flex-col box-border mt-16 p-6 w-fit h-fit bg-zinc-600 border-2 border-zinc-200 rounded-3xl bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20 md:rotate-12 w-120">
             <div className="flex pl-48 md:pl-60 pb-4 ">
-              <Visa />
+              <img src={Visa} alt="" />
             </div>
             <div className="flex my-3">
-              <Chip />
+              <img src={Chip} alt="" />
             </div>
             <div className="flex my-6 text-xl text-white md:text-4xl">
               <p className="font-thin">3416 9945 3580 2130</p>
