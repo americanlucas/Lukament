@@ -1,4 +1,5 @@
 import { Main } from "@/components/Plans/Main"
+import Footer from "@/components/skeleton/Footer"
 import { Header } from "@/components/skeleton/Header"
 
 
@@ -10,6 +11,9 @@ export const Plans = () => {
             </div>
             <div>
                 <Main />
+            </div>
+            <div>
+                <Footer/>
             </div>
         </>
     )

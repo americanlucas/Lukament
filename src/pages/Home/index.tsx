@@ -1,3 +1,4 @@
+import Footer from "@/components/skeleton/Footer";
 import { Header } from "@/components/skeleton/Header";
 import { Main } from "@/components/skeleton/Main";
 
@@ -10,7 +11,9 @@ export const Home = () => {
       <div>
         <Main />
       </div>
-      <div>{/* footer */}</div>
+      <div>
+        < Footer/>
+      </div>
     </>
   );
 };
