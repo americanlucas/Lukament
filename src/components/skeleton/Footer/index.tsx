@@ -7,7 +7,7 @@ export default function Footer() {
             <div className="my-8">
                 <h1 className="text-center text-white text-sm">
                     Developed by  
-                    <Link className="px-1 text-purple-300 hover:font-bold" to="https://github.com/americanlucas">
+                    <Link target="_blank" className="px-1 text-purple-300 hover:font-bold" to="https://github.com/americanlucas">
                         &copy;AmericanLucas
                     </Link>
                 </h1>
